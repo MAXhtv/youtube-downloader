@@ -15,12 +15,11 @@ requirements = python3,kivy,yt-dlp
 orientation = portrait
 fullscreen = 0
 
+android.accept_sdk_license = True
 android.api = 34
 android.minapi = 24
-android.sdk = 34
 android.ndk = 25b
-android.build_tools = 34.0.0
-android.archs = arm64-v8a,armeabi-v7a
+android.archs = arm64-v8a
 
 android.permissions = INTERNET
 
