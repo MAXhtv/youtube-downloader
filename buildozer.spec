@@ -12,6 +12,12 @@ version = 1.0
 
 requirements = python3,kivy,yt-dlp
 
+android.api = 34
+android.minapi = 24
+android.sdk = 34
+android.ndk = 25b
+android.build_tools = 34.0.0
+
 orientation = portrait
 fullscreen = 0
 
