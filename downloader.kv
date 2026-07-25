@@ -1,0 +1,28 @@
+BoxLayout:
+    orientation: "vertical"
+    padding: 20
+    spacing: 15
+
+    Label:
+        text: "YouTube Downloader"
+        font_size: 28
+
+    TextInput:
+        id: url
+        hint_text: "url here"
+        multiline: False
+
+    Button:
+        text: "Adicionar mais musicas"
+        on_release:app.indexar()
+    Button:
+        text: "Baixar Vídeo"
+        on_release:app.baixarvideo()
+
+    Button:
+        text: "Baixar Áudio"
+        on_release:app.baixarmusica()
+
+    Label:
+        id: status
+        text: "Status: Aguardando..."
